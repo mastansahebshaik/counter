@@ -3,10 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://mastansahebshaik.github.io/counter"
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
